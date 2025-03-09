@@ -5,7 +5,7 @@ import cert1 from './cert1.jpg';
 import cert2 from './cert2.jpg';
 import cert3 from './cert3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode, faSyncAlt, faUserFriends, faBrain, faCode, faDatabase, faMobileAlt, faRoad, faBasketballBall } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode, faSyncAlt, faUserFriends, faBrain, faCode, faDatabase, faMobileAlt, faRoad, faBasketballBall, faCalendarAlt, faBook, faGamepad, faHeart, faPeopleGroup  } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -56,6 +56,46 @@ const projects = [
     link: 'https://github.com/DiovicSolon/roadguard_admin',
     viewLink: 'https://roadguard-admin.vercel.app/',
     icon: faRoad
+  },
+  { 
+    title: 'Calendar Date', 
+    desc: 'Interactive calendar application', 
+    tags: ['React', 'Vercel'],
+    link: 'https://github.com/DiovicSolon/portfolio',
+    viewLink: 'https://calendar-date-phi.vercel.app/',
+    icon: faCalendarAlt
+  },
+  { 
+    title: 'Research Q&A', 
+    desc: 'Platform for research questions and answers', 
+    tags: ['React', 'Vercel'],
+    link: 'https://github.com/DiovicSolon/ResearchQ-A',
+    viewLink: 'https://research-q-a.vercel.app/',
+    icon: faBook
+  },
+  { 
+    title: 'Dota 2 Items', 
+    desc: 'Guide and information for Dota 2 items', 
+    tags: ['React', 'Vercel'],
+    link: 'https://github.com/DiovicSolon/Dota2Items',
+    viewLink: 'https://dota2-items-kappa.vercel.app/',
+    icon: faGamepad
+  },
+  { 
+    title: 'Love Story', 
+    desc: 'Interactive love story application', 
+    tags: ['React', 'Vercel'],
+    link: 'https://github.com/DiovicSolon/LoveStory',
+    viewLink: 'https://love-story-three.vercel.app/',
+    icon: faHeart
+  },
+  { 
+    title: 'Agawn', 
+    desc: 'Agawn application', 
+    tags: ['React', 'Vercel'],
+    link: 'https://github.com/DiovicSolon/Agawn',
+    viewLink: 'https://agawn.vercel.app/',
+    icon: faPeopleGroup 
   }
 ];
 
@@ -353,7 +393,7 @@ function App() {
 
       {/* Footer */}
       <footer className="bg-gray-900/80 backdrop-blur-sm border-t border-gray-700 py-4 text-center text-gray-400">
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2024 DiovicSolon Portfolio. All rights reserved.</p>
       </footer>
     </div>
   );
